@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
 from model import predict
+import altair.vegalite.v4
 
 
 st.set_option("deprecation.showfileUploaderEncoding", False)
